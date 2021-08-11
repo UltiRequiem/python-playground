@@ -2,10 +2,6 @@
 
 Is an interpreted high-level general-purpose programming language
 
-## TODO
-
-- Learn How to use OOP
-
 ## Formal Practice
 
 I do some exercises every day in:
@@ -24,4 +20,3 @@ I do some exercises every day in:
 
 - [How to call a function within class?](https://stackoverflow.com/questions/5615648/how-to-call-a-function-within-class)
 - [How can I access a classmethod from inside a class in Python](https://stackoverflow.com/questions/13900515/how-can-i-access-a-classmethod-from-inside-a-class-in-python)
-# python
