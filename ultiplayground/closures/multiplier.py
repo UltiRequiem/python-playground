@@ -1,8 +1,9 @@
-def make_multiplier_of(n: int):
+from typing import Callable
+
+
+def make_multiplier_of(n: int) -> Callable:
     def multiplier(x: int) -> int:
         return x * n
-
-    # multiplier = lambda x: x * n
 
     return multiplier
 

@@ -1,8 +1,11 @@
-def increment_by(num):
-    def increment(n):
+from typing import Callable
+
+
+def increment_by(num: int) -> Callable:
+    def incrementer(n: int) -> int:
         return n + num
 
-    return increment
+    return incrementer
 
 
 increment_by_ten = increment_by(10)

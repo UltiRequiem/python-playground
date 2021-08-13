@@ -1,4 +1,7 @@
-def return_msg(msg: str = "Hello"):
+from typing import Callable
+
+
+def return_msg(msg: str = "Hello") -> Callable:
     def returner() -> str:
         return msg
 
