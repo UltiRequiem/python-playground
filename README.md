@@ -8,6 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![Lines of Code](https://img.shields.io/tokei/lines/github.com/UltiRequiem/python?color=blue&label=Total%20Lines)
 [![GitMoji](https://img.shields.io/badge/Gitmoji-%F0%9F%8E%A8%20-FFDD67.svg)](https://gitmoji.dev)
+[]![pylint Score](https://mperlet.github.io/pybadge/badges/10.00.svg)](https://github.com/UltiRequiem/python/blob/main/.pylintrc)
 
 ![Cover](https://i.imgur.com/h9R7o2k.png)
 
@@ -51,3 +52,7 @@ I do some exercises and challenges every day in:
 ### Readed Questions
 
 - [How to call a function within class?](https://stackoverflow.com/questions/5615648)
+- [What is the file type of .pylintrc](https://stackoverflow.com/questions/47936144)
+- [How do I disable “missing docstring” warnings at a file-level in Pylint?](https://stackoverflow.com/questions/7877522)
+- [What's the meaning of the percentages displayed for each test on PyTest?](https://stackoverflow.com/questions/49738081)
+- [Python coverage badges](https://stackoverflow.com/questions/29295965)
