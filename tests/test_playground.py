@@ -1,4 +1,4 @@
-from ultiplayground import __version__, __authors__
+from ultiplayground import __authors__, __version__
 
 
 def test_version():
