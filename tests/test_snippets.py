@@ -10,4 +10,4 @@ def test_pokemons():
 
 
 def test_quotes():
-    assert isinstance(QUOTES_DATA, str), "This Pokemon list is not valid!"
+    assert isinstance(QUOTES_DATA, dict), "This dict is not valid!"
