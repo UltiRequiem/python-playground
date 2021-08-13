@@ -45,6 +45,7 @@ I do some exercises and challenges every day in:
 ## Interesting Questions
 
 - [How can I access a classmethod from inside a class in Python](https://stackoverflow.com/questions/13900515)
+- [Should Python class filenames also be camelCased?](https://stackoverflow.com/questions/42127593)
 
 ### Readed Articles
 
