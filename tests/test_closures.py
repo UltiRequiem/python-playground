@@ -1,4 +1,4 @@
-from playground.closures import INCREMENT_BY_10, FIVE_TIMES, say_cheese
+from ultiplayground.closures import INCREMENT_BY_10, FIVE_TIMES, say_cheese
 
 
 def test_incrementer():

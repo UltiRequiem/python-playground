@@ -1,9 +1,17 @@
 [tool.poetry]
-name = "python-playground"
+name = "ultiplayground"
 version = "0.1.0"
 description = "My Personal Playground"
 authors = ["Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>"]
 license = "MIT"
+homepage = "https://github.com/UltiRequiem/python"
+readme = "README.md"
+repository = "https://github.com/UltiRequiem/python"
+keywords = ["ultirequiem", "utilities"]
+include = [
+    "LICENSE",
+]
+
 
 [tool.poetry.dependencies]
 python = "^3.7"
