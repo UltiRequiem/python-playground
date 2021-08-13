@@ -5,9 +5,9 @@ def increment_by(num):
     return increment
 
 
-INCREMENT_BY_10 = increment_by(10)
+increment_by_ten = increment_by(10)
 
-ONE_HUNDRED = INCREMENT_BY_10(90)
 
 if __name__ == "__main__":
+    ONE_HUNDRED = increment_by_ten(90)
     print(ONE_HUNDRED)

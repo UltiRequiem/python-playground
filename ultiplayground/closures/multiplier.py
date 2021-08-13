@@ -7,11 +7,11 @@ def make_multiplier_of(n: int):
     return multiplier
 
 
-THREE_TIMES = make_multiplier_of(3)
+multiply_three = make_multiplier_of(3)
 
-FIVE_TIMES = make_multiplier_of(5)
+multiply_five = make_multiplier_of(5)
 
 if __name__ == "__main__":
-    print(THREE_TIMES(9))
-    print(FIVE_TIMES(3))
-    print(FIVE_TIMES(THREE_TIMES(2)))
+    print(multiply_three(9))
+    print(multiply_five(3))
+    print(multiply_five(multiply_three(2)))
