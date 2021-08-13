@@ -9,10 +9,10 @@ from sys import argv
 
 def main(command: str) -> None:
     if command == "format":
-        system("black .")
+        system("poetry run black .")
     elif command == "lint":
-        system("pylint ultiplayground tests")
-    elif command =="test":
+        system("poetry run pylint ultiplayground tests")
+    elif command == "test":
         system("poetry run pytest")
     else:
         raise BaseException("That is not a valid command!")

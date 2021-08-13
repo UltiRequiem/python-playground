@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ultiplayground"
-version = "0.1.4"
+version = "0.1.5"
 description = "My Personal Playground"
 authors = ["Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>"]
 license = "MIT"
