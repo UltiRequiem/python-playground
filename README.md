@@ -2,7 +2,7 @@
 
 ![CodeQL](https://github.com/UltiRequiem/python/workflows/CodeQL/badge.svg)
 ![PyTest](https://github.com/UltiRequiem/python/workflows/PyTest/badge.svg)
-[![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Code Style](https://img.shields.io/badge/Code%20Style-Black-000000.svg)](https://github.com/psf/black)
 [![PyPi Version](https://img.shields.io/pypi/v/ultiplayground)](https://pypi.org/project/ultiplayground)
 ![Repo Size](https://img.shields.io/github/repo-size/ultirequiem/python?style=flat-square&label=Repo)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
