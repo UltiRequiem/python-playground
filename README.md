@@ -19,6 +19,14 @@ so I have quite a bit of experience with it.
 I do some exercises and challenges every day in:
 [UltiRequiem/daily-python-practice](https://github.com/UltiRequiem/daily-python-practice)
 
+To manage dependencies and build this package,
+I'm using [Poetry](https://python-poetry.org).
+
+To test my functions I am using [Pytest](https://pytest.org)
+
+And if you are curious my code
+editor is [Neovim](https://github.com/UltiRequiem/UltiVim) :)
+
 ## Interesting Articles
 
 - [Python Type Checking](https://realpython.com/python-type-checking)
