@@ -4,8 +4,8 @@ from .returner import say_cheese, say_hello
 
 
 def use_incrementer() -> None:
-    TEN = increment_by_ten(0)
-    print(TEN)
+    ten = increment_by_ten(0)
+    print(ten)
 
 
 def use_multiplier() -> None:

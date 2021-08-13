@@ -1,9 +1,9 @@
 from typing import Callable
 
 
-def make_multiplier_of(n: int) -> Callable:
-    def multiplier(x: int) -> int:
-        return x * n
+def make_multiplier_of(num_one: int) -> Callable:
+    def multiplier(num_two: int) -> int:
+        return num_two * num_one
 
     return multiplier
 

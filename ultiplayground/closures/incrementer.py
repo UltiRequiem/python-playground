@@ -2,8 +2,8 @@ from typing import Callable
 
 
 def increment_by(num: int) -> Callable:
-    def incrementer(n: int) -> int:
-        return n + num
+    def incrementer(num_two: int) -> int:
+        return num_two + num
 
     return incrementer
 
