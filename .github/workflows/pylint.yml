@@ -12,7 +12,7 @@ jobs:
       - name: Prepare
         run: |
           sudo apt-get update      
-          pip install poetry pylint
+          pip install poetry
           poetry install
       - name: Run pylint
         run: poetry run pytest
