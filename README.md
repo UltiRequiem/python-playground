@@ -10,3 +10,31 @@
 [![GitMoji](https://img.shields.io/badge/Gitmoji-%F0%9F%8E%A8%20-FFDD67.svg)](https://gitmoji.dev)
 
 ![Cover](https://i.imgur.com/h9R7o2k.png)
+
+Python is an interpreted high-level general-purpose programming language.
+
+It is the first programming language I learned,
+so I have quite a bit of experience with it.
+
+I do some exercises and challenges every day in:
+[UltiRequiem/daily-python-practice](https://github.com/UltiRequiem/daily-python-practice)
+
+## Interesting Articles
+
+- [Python Type Checking](https://realpython.com/python-type-checking)
+- [Python's Instance, Class, and Static Methods Demystified](https://realpython.com/instance-class-and-static-methods-demystified)
+- [Object-Oriented Programming (OOP) in Python 3](https://realpython.com/python3-object-oriented-programming)
+- [Python Objects and Classes](https://www.programiz.com/python-programming/class)
+
+## Interesting Questions
+
+- [How can I access a classmethod from inside a class in Python](https://stackoverflow.com/questions/13900515)
+
+### Readed Articles
+
+- [Python Closures](https://www.programiz.com/python-programming/closure)
+- [You should know this when developing python package](https://medium.com/@udiyosovzon/things-you-should-know-when-developing-python-package-5fefc1ea3606)
+
+### Readed Questions
+
+- [How to call a function within class?](https://stackoverflow.com/questions/5615648)
