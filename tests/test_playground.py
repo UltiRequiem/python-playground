@@ -1,5 +1,9 @@
-from playground import __version__
+from playground import __version__, __authors__
 
 
 def test_version():
-    assert isinstance(__version__, str), "The version is invalid!"
+    assert isinstance(__version__, str), "The version value is invalid!"
+
+
+def test_authors():
+    assert isinstance(__version__, str), "The authors value is invalid!"
