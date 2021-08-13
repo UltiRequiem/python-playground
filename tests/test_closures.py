@@ -10,4 +10,4 @@ def test_multiplier():
 
 
 def test_print():
-    assert say_cheese() == "cheese"
+    assert say_cheese() == "cheese", "Incorrect message!"
