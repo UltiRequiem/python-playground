@@ -1,4 +1,4 @@
-name: "CodeQL"
+name: CodeQL
 on:
   push:
     branches: [main]
@@ -26,6 +26,6 @@ jobs:
         with:
           languages: ${{ matrix.language }}
       - name: Autobuild
-        uses: github/codeql-action/autobuild@v1        
+        uses: github/codeql-action/autobuild@v1
       - name: CodeQL
         uses: github/codeql-action/analyze@v1

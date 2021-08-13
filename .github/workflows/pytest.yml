@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs:
   luacheck:      
-    name: Pytest
+    name: PyTest
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
