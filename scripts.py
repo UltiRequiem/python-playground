@@ -12,6 +12,8 @@ def main(command: str) -> None:
         system("black .")
     elif command == "lint":
         system("pylint ultiplayground tests")
+    elif command =="test":
+        system("poetry run pytest")
     else:
         raise BaseException("That is not a valid command!")
 
