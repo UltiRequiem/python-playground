@@ -11,7 +11,6 @@
 [![GitMoji](https://img.shields.io/badge/Gitmoji-%F0%9F%8E%A8%20-FFDD67.svg)](https://gitmoji.dev)
 ![Pylint Score](https://img.shields.io/badge/Pylint%20Score-10.00-green.svg)
 
-
 ![Cover](https://i.imgur.com/h9R7o2k.png)
 
 Python is an interpreted high-level general-purpose programming language.

@@ -7,10 +7,8 @@ license = "MIT"
 homepage = "https://github.com/UltiRequiem/python"
 readme = "README.md"
 repository = "https://github.com/UltiRequiem/python"
-keywords = ["ultirequiem", "utilities","playground"]
-include = [
-    "LICENSE",
-]
+keywords = ["ultirequiem", "utilities", "playground"]
+include = ["LICENSE"]
 
 
 [tool.poetry.dependencies]
