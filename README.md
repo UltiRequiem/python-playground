@@ -13,23 +13,23 @@
 
 ![Cover](https://i.imgur.com/h9R7o2k.png)
 
-Python is an interpreted high-level general-purpose programming language.
-It is the first programming language I learned,
-so I have quite a bit of experience with it.
+Python is an interpreted high-level general-purpose programming language. It is
+the first programming language I learned, so I have quite a bit of experience
+with it.
 
-To manage dependencies and build this package
-I'm using [Poetry](https://python-poetry.org),
-and to test my functions [Pytest](https://pytest.org).
-And if you are curious my code
-editor is [Neovim](https://github.com/UltiRequiem/UltiVim).
+To manage dependencies and build this package I'm using
+[Poetry](https://python-poetry.org), and to test my functions
+[Pytest](https://pytest.org). And if you are curious my code editor is
+[Neovim](https://github.com/UltiRequiem/UltiVim).
 
-Using [GitHub Actions](https://github.com/UltiRequiem/python/tree/main/.github/workflows)
+Using
+[GitHub Actions](https://github.com/UltiRequiem/python/tree/main/.github/workflows)
 every time that I push a commit, the project is analyzed using
 [CodeQL](https://github.com/UltiRequiem/python/blob/main/.github/workflows/codeql-analysis.yml)
 and tested with
 [PyTest](https://github.com/UltiRequiem/python/blob/main/.github/workflows/pytest.yml).
-Furthermore, every time I release a new version,
-the package is automatically published to [PyPI](https://pypi.org/project/ultiplayground).
+Furthermore, every time I release a new version, the package is automatically
+published to [PyPI](https://pypi.org/project/ultiplayground).
 
 I do some exercises and challenges every day in:
 [UltiRequiem/daily-python-practice](https://github.com/UltiRequiem/daily-python-practice)
