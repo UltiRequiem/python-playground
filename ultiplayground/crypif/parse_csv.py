@@ -20,10 +20,10 @@ def grouped(iterable, n: int):
     return zip(*[iter(iterable)] * n)
 
 
-data = {}
-
-for shortname, fullname in grouped(parse_csv("crypto_shortname.csv"), 2):
-    data[shortname] = fullname
+data = [
+    {"shortname": shortname.upper(), "fullname": fullname}
+    for shortname, fullname in grouped(parse_csv("crypto_shortname.csv"), 2)
+]
 
 with open(f"{dirname(__file__)}/data.json", "w") as f:
     json.dump(data, f)
