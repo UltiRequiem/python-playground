@@ -1,10 +1,20 @@
 from bs4 import BeautifulSoup
 from requests import get
 
-response = get("https://reactjs.org/docs/getting-started.html")
+BASE_URL = "https://reactjs.org"
+
+response = get(f"{BASE_URL}/docs/getting-started.html")
 soup = BeautifulSoup(response.text, "html.parser")
 
 block = soup.find("div", class_="css-1sdm35g")
 
-for point in block.find_all("a"):
-    print(f"- [ ] {point.text}")
+for category in block.find_all("button"):
+    print(
+        f"""\n <details>
+  <summary>{category.text}</summary>
+  """
+    )
+    for point in category.parent("a"):
+        print(f"- [ ] [{point.text}]({BASE_URL}{point['href']})")
+
+    print("</details>")
