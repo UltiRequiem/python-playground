@@ -21,4 +21,3 @@ jobs:
           poetry config pypi-token.pypi ${{ secrets.POETRY }}        
           poetry build
           poetry publish
-
