@@ -1,4 +1,4 @@
-import concurrent.futures
+from concurrent.futures import ThreadPoolExecutor
 import requests
 import threading
 import time
@@ -15,21 +15,25 @@ def get_session():
 
 def download_site(url):
     session = get_session()
-    with session.get(url) as response:
-        print(f"Read {len(response.content)} from {url}")
+    session.get(url)
 
 
 def download_all_sites(sites):
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+    with ThreadPoolExecutor(max_workers=5) as executor:
         executor.map(download_site, sites)
 
 
 if __name__ == "__main__":
     sites = [
-        "https://www.jython.org",
+        "https://jython.org",
         "http://olympus.realpython.org/dice",
-    ] * 80
+        "https://github.com/UltiRequiem/python",
+    ] * 100
+
     start_time = time.time()
+
     download_all_sites(sites)
+
     duration = time.time() - start_time
-    print(f"Downloaded {len(sites)} in {duration} seconds")
+
+    print(f"Downloaded {len(sites)} pages in {duration} seconds!")

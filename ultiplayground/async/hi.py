@@ -6,7 +6,8 @@ async def sai_hy(name: str):
 
 
 async def main():
-    print(await sai_hy("Zero"))
+    hey = await sai_hy("Zero")
+    print(hey)
 
 
 asyncio.run(main())
