@@ -1,6 +1,5 @@
 # Python Playground
 
-![CodeQL](https://github.com/UltiRequiem/python/workflows/CodeQL/badge.svg)
 ![PyTest](https://github.com/UltiRequiem/python/workflows/PyTest/badge.svg)
 ![Pylint](https://github.com/UltiRequiem/python/workflows/Pylint/badge.svg)
 [![Code Style](https://img.shields.io/badge/Code%20Style-Black-000000.svg)](https://github.com/psf/black)
@@ -48,7 +47,11 @@ I do some exercises and challenges every day in:
 ### Other Questions
 
 - [How to call a function within class?](https://stackoverflow.com/questions/5615648)
-- [What is the file type of .pylintrc](https://stackoverflow.com/questions/47936144)
+- [What is the file type of `.pylintrc`](https://stackoverflow.com/questions/47936144)
 - [How do I disable "missing docstring" warnings at a file-level in Pylint?](https://stackoverflow.com/questions/7877522)
 - [What's the meaning of the percentages displayed for each test on PyTest?](https://stackoverflow.com/questions/49738081)
 - [Python coverage badges](https://stackoverflow.com/questions/29295965)
+
+## License
+
+This is licensed under the MIT License, take what you want 🚀
