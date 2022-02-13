@@ -1,6 +1,6 @@
 import csv
 import json
-from os.path import dirname
+import os
 
 
 def parse_csv(file_path: str, from_script_dir=True, reader=csv.reader):
@@ -9,7 +9,7 @@ def parse_csv(file_path: str, from_script_dir=True, reader=csv.reader):
     """
 
     if from_script_dir:
-        file_path = f"{dirname(__file__)}/{file_path}"
+        file_path = f"{os.getcwd()}/data/{file_path}"
 
     with open(file_path, "r") as csv_file:
         reader = reader(csv_file)
@@ -25,5 +25,5 @@ data = [
     for shortname, fullname in grouped(parse_csv("crypto_shortname.csv"), 2)
 ]
 
-with open(f"{dirname(__file__)}/data.json", "w") as f:
+with open(f"{os.getcwd()}/data/data.json", "w") as f:
     json.dump(data, f)
