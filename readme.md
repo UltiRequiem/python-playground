@@ -8,24 +8,31 @@
 [![GitMoji](https://img.shields.io/badge/Gitmoji-%F0%9F%8E%A8%20-FFDD67.svg)](https://gitmoji.dev)
 ![Pylint Score](https://img.shields.io/badge/Pylint%20Score-10.00-green.svg)
 
-Python is an interpreted high-level general-purpose programming language. It is
-the first programming language I learned, so I have quite a bit of experience
-with it.
+> An interpreted high-level general-purpose programming language
 
-To manage dependencies and build this package I'm using
-[Poetry](https://python-poetry.org), and to test my functions
-[Pytest](https://pytest.org). And if you are curious my code editor is
-[Neovim](https://github.com/UltiRequiem/UltiVim).
+It is the first programming language I learned, so I have quite a bit of
+experience with it.
 
-Using
+To manage dependencies I'm using [Poetry](https://python-poetry.org), for
+testing [PyTest](https://pytest.org) and for linting
+[PyLint](https://pylint.org).
+
+And if you are curious my code editor is
+[Neovim](https://github.com/UltiRequiem/UltiVim) 😆
+
+I'm using
 [GitHub Actions](https://github.com/UltiRequiem/python/tree/main/.github/workflows)
-every time that I push a commit, the project is analyzed using
-[CodeQL](https://github.com/UltiRequiem/python/blob/main/.github/workflows/codeql-analysis.yml)
-and tested with
-[PyTest](https://github.com/UltiRequiem/python/blob/main/.github/workflows/pytest.yml).
+as continuos integration, every time I push a commit it runs
+[CodeQL](https://github.com/UltiRequiem/python/blob/main/.github/workflows/codeql-analysis.yml),
+[PyTest](https://github.com/UltiRequiem/python/blob/main/.github/workflows/pytest.yml)
+and
+[PyLint](https://github.com/UltiRequiem/python/blob/main/.github/workflows/pylint.yml).
 
 I do some exercises and challenges every day in:
 [UltiRequiem/daily-python-practice](https://github.com/UltiRequiem/daily-python-practice)
+
+I solved all the
+[Hacker Rank Python Problems](https://github.com/UltiRequiem/hacker-rank-python).
 
 ## Interesting Articles
 
