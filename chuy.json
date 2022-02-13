@@ -1,6 +1,0 @@
-{
-  "format": "poetry run black .",
-  "lint": "poetry run pylint ultiplayground tests",
-  "test": "poetry run pytest",
-  "playground": "poetry run boxie UltiPlayground!"
-}
