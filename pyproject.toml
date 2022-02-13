@@ -4,9 +4,9 @@ version = "0.1.5"
 description = "My Personal Playground"
 authors = ["Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>"]
 license = "MIT"
-homepage = "https://github.com/UltiRequiem/python"
+homepage = "https://github.com/UltiRequiem/python-playground"
 readme = "readme.md"
-repository = "https://github.com/UltiRequiem/python"
+repository = "https://github.com/UltiRequiem/python-playground"
 keywords = ["ultirequiem", "utilities", "playground"]
 include = ["LICENSE"]
 
