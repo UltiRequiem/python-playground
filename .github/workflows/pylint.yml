@@ -3,7 +3,7 @@ name: Pylint
 on: [push, pull_request]
 
 jobs:
-  lint:          
+  lint:
     name: Pylint
     runs-on: ubuntu-latest
     steps:
