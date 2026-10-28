@@ -1,13 +1,5 @@
 # Python Playground
 
-![PyTest](https://github.com/UltiRequiem/python/workflows/PyTest/badge.svg)
-![Pylint](https://github.com/UltiRequiem/python/workflows/Pylint/badge.svg)
-[![Code Style](https://img.shields.io/badge/Code%20Style-Black-000000.svg)](https://github.com/psf/black)
-![Repo Size](https://img.shields.io/github/repo-size/ultirequiem/python?style=flat-square&label=Repo)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitMoji](https://img.shields.io/badge/Gitmoji-%F0%9F%8E%A8%20-FFDD67.svg)](https://gitmoji.dev)
-![Pylint Score](https://img.shields.io/badge/Pylint%20Score-10.00-green.svg)
-
 > An interpreted high-level general-purpose programming language
 
 It is the first programming language I learned, so I have quite a bit of
