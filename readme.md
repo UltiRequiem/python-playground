@@ -22,7 +22,7 @@ And if you are curious my code editor is
 
 I'm using
 [GitHub Actions](https://github.com/UltiRequiem/python/tree/main/.github/workflows)
-as continuos integration, every time I push a commit it runs
+as continuous integration, every time I push a commit it runs
 [CodeQL](https://github.com/UltiRequiem/python/blob/main/.github/workflows/codeql-analysis.yml),
 [PyTest](https://github.com/UltiRequiem/python/blob/main/.github/workflows/pytest.yml)
 and
